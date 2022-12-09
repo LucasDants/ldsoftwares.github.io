@@ -1,20 +1,24 @@
-import { Flex, Text } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import { Logo } from "./Logo";
+import { NavBar } from "./NavBar";
 
 export function Header() {
   return (
     <Flex
       as="header"
       w="100%"
-      maxW={1480}
-      h="20"
-      mx="auto"
-      mt="4"
+      py="6"
       px="6"
       align="center"
+      position="sticky"
+      top="0"
+      zIndex="10"
+      bg="brand.600"
     >
-      <Logo />
-      <Text>teste</Text>
+      <Flex maxW={1280} mx="auto" w="100%" align="center">
+        <Logo />
+        <NavBar />
+      </Flex>
     </Flex>
   );
 }
