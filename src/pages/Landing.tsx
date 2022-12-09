@@ -7,12 +7,12 @@ import { Services } from "../components/Services";
 
 export function LandingPage() {
   return (
-    <Box>
+    <Flex flex="1" flexDir="column">
       <Header />
       <About />
       <Services />
       <Portfolio />
       <Contacts />
-    </Box>
+    </Flex>
   );
 }

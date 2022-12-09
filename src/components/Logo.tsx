@@ -1,14 +1,19 @@
-import { Text } from "@chakra-ui/react";
+import { Text, useBreakpointValue } from "@chakra-ui/react";
 
 export function Logo() {
+  const isWideVersion = useBreakpointValue({
+    base: false,
+    lg: true,
+  });
+
   return (
     <Text
-      fontSize={["xl", "2xl"]}
+      fontSize={["lg", "2xl"]}
       fontWeight="bold"
       letterSpacing="tight"
       w="64"
     >
-      LD Softwares
+      LD {isWideVersion ? "Softwares" : ""}
       <Text as="span" color="yellow.500">
         .
       </Text>

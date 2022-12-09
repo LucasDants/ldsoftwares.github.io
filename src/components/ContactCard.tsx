@@ -15,9 +15,7 @@ export function ContactCard({ Icon, title, url }: Props) {
       borderRadius="md"
       py="4"
       px="6"
-      mb="6"
       gap="4"
-      mt="12"
     >
       <Icon size="22" color="#EEEEEE" weight="light" />
       <Link

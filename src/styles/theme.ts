@@ -25,6 +25,7 @@ export const theme = extendTheme({
     global: {
       body: {
         bg: "brand.400",
+
         color: "white",
         "::-webkit-scrollbar": {
           w: "2",

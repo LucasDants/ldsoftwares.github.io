@@ -10,7 +10,7 @@ export function NavLink({ href, children }: Props) {
     <Link
       href={href}
       color="white"
-      fontSize={["md", "lg"]}
+      fontSize={["sm", "lg"]}
       _hover={{ color: "yellow.500", textDecoration: "underline" }}
     >
       {children}

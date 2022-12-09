@@ -1,4 +1,4 @@
-import { Flex, HStack, Text } from "@chakra-ui/react";
+import { Flex, Stack, Text } from "@chakra-ui/react";
 
 import { SkillCard } from "./SkillCard";
 
@@ -39,7 +39,7 @@ export function Services() {
         soluções ponta a ponta. Utilizando tecnologias escaláveis e amplamente
         usadas no mercado por empresas como a Meta, Uber, Google e Microsoft.
       </Text>
-      <HStack spacing="6" pt="8">
+      <Stack direction={["column", "row"]} spacing="6" pt="8">
         <SkillCard
           Icon={DeviceMobile}
           title="Desenvolvimento Mobile"
@@ -61,7 +61,7 @@ export function Services() {
           infoTitle="2 +"
           infoSubtitle="Anos de Experiência"
         />
-      </HStack>
+      </Stack>
     </Flex>
   );
 }

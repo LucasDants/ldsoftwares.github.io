@@ -1,4 +1,4 @@
-import { Flex, HStack, Image, Link, Text } from "@chakra-ui/react";
+import { Flex, HStack, Image, Link, Stack, Text } from "@chakra-ui/react";
 
 export function Portfolio() {
   return (
@@ -43,7 +43,7 @@ export function Portfolio() {
         .
       </Text>
 
-      <HStack pt="10" spacing="6">
+      <Stack direction={["column", "row"]} pt="10" spacing="6">
         <Link
           href="https://github.com/LucasDants/ReactNative-GoPizza"
           isExternal
@@ -59,7 +59,7 @@ export function Portfolio() {
         <Link href="https://github.com/LucasDants/ReactNative-Rentx" isExternal>
           <Image h="96" objectFit="contain" src="rentx.png" />
         </Link>
-      </HStack>
+      </Stack>
     </Flex>
   );
 }

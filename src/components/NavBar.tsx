@@ -3,7 +3,7 @@ import { NavLink } from "./NavLink";
 
 export function NavBar() {
   return (
-    <Flex as="nav" ml="auto" gap="12">
+    <Flex as="nav" ml="auto" gap={["4", "12"]}>
       <NavLink href="#home">Home</NavLink>
       <NavLink href="#services">Serviços</NavLink>
       <NavLink href="#portfolio">Portfolio</NavLink>

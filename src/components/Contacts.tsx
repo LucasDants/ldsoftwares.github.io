@@ -33,8 +33,20 @@ export function Contacts() {
       >
         Como Entrar em Contato
       </Text>
-      <Text textAlign="center" maxW={640} color="gray.100" pt="4"></Text>
-      <Flex gap="4" maxW={1280} wrap="wrap">
+      <Text
+        textAlign="center"
+        maxW={640}
+        color="gray.100"
+        pt="4"
+        mb={["6", "12"]}
+      ></Text>
+      <Flex
+        gap="4"
+        maxW={1280}
+        alignItems="center"
+        justifyContent="center"
+        wrap="wrap"
+      >
         <ContactCard
           Icon={Envelope}
           title="devlucasdantas@gmail.com"
