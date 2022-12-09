@@ -5,7 +5,6 @@ export function Portfolio() {
     <Flex
       as="section"
       py="16"
-      mx="auto"
       px="6"
       alignItems="center"
       flexDir="column"

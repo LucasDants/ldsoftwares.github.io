@@ -22,8 +22,8 @@ export function About() {
       <Flex maxWidth={1280} mx="auto" px="6" justifyContent="space-between">
         <Box boxSize="md" mt="10" zIndex={5}>
           <Text as="h1" fontSize={["3xl", "4xl"]} fontWeight="bold">
-            Lucas
-            <br /> Dantas
+            LD
+            <br /> Softwares
             <Text as="span" color="yellow.500">
               .
             </Text>
